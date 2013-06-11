@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Dave Maldonado]]></title>
+  <link href="http://dave-maldonado.github.io/atom.xml" rel="self"/>
+  <link href="http://dave-maldonado.github.io/"/>
+  <updated>2013-06-11T13:31:55-04:00</updated>
+  <id>http://dave-maldonado.github.io/</id>
+  <author>
+    <name><![CDATA[David Maldonado]]></name>
+    <email><![CDATA[david.m.maldonado@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
