@@ -18,9 +18,8 @@ I decided I hated these things and went back to school. Three years and two comm
 colleges later I have an associate degree and got accepted to the local university.
 During this time I discovered Computer Science. 
 
-Now I've been mucking around with computers since I was a kid and was generally seen as the
-'computer guy' in the neighborhood but somehow I missed programming back then, I was only 
-dimly aware of it and was more interested in building computers and how the hardware worked. 
+Now I've been mucking around with computers since I was but somehow I missed programming back then, 
+I was only dimly aware of it and was more interested in building computers and how the hardware worked. 
 My first exposure to real CS was like a flash of lightning, this was totally different than
 what I imagined a career involving computers could be, this was...a *real* science, like
 Physics or Math, exciting and worthy of a lifetime of study.
