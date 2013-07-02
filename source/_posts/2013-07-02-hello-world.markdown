@@ -8,9 +8,9 @@ categories: rant, programming, newb
 
 I'm what you could charitably call a beginning programmer. I'm 30, skipped going to 
 college after high school and spent a decade flailing about trying to figure out
-what I was good at.
+what I was good at. I did a lot of odd jobs- pest control, retail, call center...
 
-I did a lot of odd jobs- pest control, retail, call center...**many** call centers
+**many** call centers
 
 {% img /images/call-center.jpg my personal hell %}
 
