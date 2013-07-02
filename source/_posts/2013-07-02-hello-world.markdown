@@ -30,5 +30,5 @@ I've only been programming for a few years but I'm hungry to catch up on lost ti
 I've been trying to get a job where I can program while I'm studying CS at school but it's 
 proving to be difficult. I applied for an apprenticeship at a web-services company 
 and was challenged to write a tic-tac-toe program where the computer never lost. 
-So far this task has been rewarding in and harder than I first imagined. 
+So far this task has been rewarding and harder than I first imagined. 
 I hope that it pans out but if not I'll keep trying. I'm ready to get on with my life.
