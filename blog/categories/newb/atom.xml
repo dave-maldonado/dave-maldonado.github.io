@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Dave's not here man]]></title>
-  <link href="http://dave-maldonado.github.io/atom.xml" rel="self"/>
+
+  <title><![CDATA[Category: newb | Dave's not here man]]></title>
+  <link href="http://dave-maldonado.github.io/blog/categories/newb/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
   <updated>2013-07-02T15:27:05-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
@@ -23,7 +24,7 @@ out if I&rsquo;m good at anything.</p>
 
 <p>I did a lot of odd jobs- pest control, retail, call center&hellip;<strong>many</strong> call centers</p>
 
-<p><img src="http://dave-maldonado.github.io/images/call-center.jpg" title="my personal hell" ></p>
+<p><img src="/images/call-center.jpg" title="my personal hell" ></p>
 
 <p>I decided I hated these things and went back to school. Three years and two community
 colleges later I have an associate degree and got accepted to the local university.
@@ -36,7 +37,7 @@ My first exposure to real CS was like a flash of lightning, this was totally dif
 what I imagined a career involving computers could be, this was&hellip;a <em>real</em> science, like
 Physics or Math, exciting and worthy of a lifetime of study.</p>
 
-<p><img src="http://dave-maldonado.github.io/images/computer-science-major.png" title="wat" ></p>
+<p><img src="/images/computer-science-major.png" title="wat" ></p>
 
 <p>I&rsquo;ve only been programming for a few years but I&rsquo;m hungry to catch up on lost time.
 I&rsquo;m trying to get a job where I can program while I&rsquo;m studying CS at school but it&rsquo;s
