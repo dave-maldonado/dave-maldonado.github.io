@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: programming, | Dave's not here man]]></title>
+  <title><![CDATA[Category: programming | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-07-02T18:47:42-04:00</updated>
+  <updated>2013-07-02T20:26:36-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
