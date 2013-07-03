@@ -6,15 +6,16 @@ comments: true
 categories: rant programming newb
 ---
 
-I guess a first post is as good as any for my backstory. I'm 30 and skipped going to 
-college after high school. I spent a decade flailing about trying to figure out
-what I was good at. I did a lot of odd jobs- pest control, retail, call center...
+I guess a first post is as good as any for my backstory. Grew up middle class
+Army brat, rebelled in high school and skipped going to college afterward. 
+I spent a decade flailing about trying to figure out what I was good at. Tried a 
+few things- pest control, retail, call center...
 
 **many** call centers
 
 {% img /images/call-center.jpg my personal hell %}
 
-I decided I hated these things and went back to school. Three years and two community 
+All these jobs were terrible and I decided to go back to school. Three years and two community 
 colleges later I have an associate degree and got accepted to the local university.
 Its during this time I discovered Computer Science. 
 
