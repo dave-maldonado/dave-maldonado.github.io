@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: rant | Dave's not here man]]></title>
-  <link href="http://dave-maldonado.github.io/blog/categories/rant/atom.xml" rel="self"/>
+  <title><![CDATA[Category: personal | Dave's not here man]]></title>
+  <link href="http://dave-maldonado.github.io/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
   <updated>2013-07-05T16:09:17-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[disappoint]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/07/05/disappoint/"/>
+    <updated>2013-07-05T15:51:00-04:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/07/05/disappoint</id>
+    <content type="html"><![CDATA[<p><img src="/images/FredisDisappoint.jpg" title="disappoint" ></p>
+
+<p>I didn&rsquo;t get that apprenticeship.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hello, world]]></title>
