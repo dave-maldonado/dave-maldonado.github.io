@@ -3,7 +3,7 @@ layout: post
 title: "hello, world"
 date: 2013-07-02 11:32
 comments: true
-categories: rant programming newb
+categories: rant programming newb personal
 ---
 
 I guess a first post is as good as any for my backstory. Grew up middle class
