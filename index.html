@@ -9,8 +9,8 @@
   <meta name="author" content="David Maldonado">
 
   
-  <meta name="description" content=" I didn&rsquo;t get that apprenticeship.
-">
+  <meta name="description" content="So today I decided to re-install emacs from scratch. this started the usual way, 1
+$ brew install emacs and voila! I had a vanilla install of emacs. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -45,6 +45,144 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/10/emacs-live/">Emacs Live</a></h1>
+    
+  </header>
+
+
+  
+    <p class="meta">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-10T17:36:00-04:00" pubdate data-updated="true">Jul 10<span>th</span>, 2013</time>
+      
+    </p>
+  
+  
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/emacs/'>emacs</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/tools/'>tools</a>
+  
+</span>
+
+
+  <div class="entry-content"><p>So today I decided to re-install emacs from scratch.</p>
+
+<p><img src="/images/why_would_you_do_that.png" width="400" height="400" title="why would you do that?" ></p>
+
+<p>this started the usual way,</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ brew install emacs</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and <em>voila!</em> I had a vanilla install of emacs.</p>
+
+<p>I was using the <a href="https://github.com/technomancy/emacs-starter-kit">starter-kit</a> before
+but I had some problems with certain packages playing nice so I decided to look for
+something new. Enter <strong>Emacs Live</strong>.</p>
+
+<h1>Emacs Live</h1>
+
+<p><img src="/images/emacs-live.png" title="Emacs Live" ></p>
+
+<p>Sam Aaron makes <a href="https://www.youtube.com/watch?v=bMP-7POtML0">music</a> with code. He
+live-codes his music using a <em>customised</em> version of Emacs. Apparently this is also a
+nice setup for developing in Clojure, a language I&rsquo;m very interested in.</p>
+
+<p>To install I cloned <a href="https://github.com/overtone/emacs-live">the repository</a>
+to .emacs.d.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone https://github.com/overtone/emacs-live.git  ~/.emacs.d</span></code></pre></td></tr></table></div></figure>
+
+
+<p>After starting it up and playing with some of the features (undo-tree being my favorite)
+I decided I couldn&rsquo;t leave well enough alone and wanted my pretty <a href="http://ethanschoonover.com/solarized">solarized</a> colors. So I got to hacking.</p>
+
+<h1>Solarized</h1>
+
+<p>I found a custom &lsquo;pack&rsquo; for solarized <a href="https://github.com/siancu/solarized-pack">here</a> but
+it uses <a href="https://github.com/bbatsov/solarized-emacs">batsov&rsquo;s solarized-emacs package</a> which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with <a href="https://github.com/sellout/emacs-color-theme-solarized">sellout&rsquo;s color-theme-solarized package</a> (There are at least <strong>three</strong> emacs packages for the solarized theme).</p>
+
+<p>The <a href="http://overtone.github.io/emacs-live/documentation.html">documentation</a> explains how to
+make a user pack and get it loaded into emacs. What I did with my user pack was to clone
+sellout&rsquo;s package into the lib folder for the pack:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cp -r ~/.emacs.d/packs/template ~/.live-packs
+</span><span class='line'>$ cd ~/.live-packs
+</span><span class='line'>$ mv user-template-pack dave-pack
+</span><span class='line'>$ git clone https://github.com/sellout/emacs-color-theme-solarized ~/.live-packs/dave-pack/lib/emacs-color-theme-solarized</span></code></pre></td></tr></table></div></figure>
+
+
+<p>then a little editing was needed to some files inside the pack:</p>
+
+<figure class='code'><figcaption><span>~/.live-packs/dave-pack/init.el</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='cl'><span class='line'><span class="c1">;; Solarized</span>
+</span><span class='line'><span class="p">(</span><span class="nv">live-load-config-file</span> <span class="s">&quot;solarized-conf.el&quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>~/.live-packs/dave-pack/config/solarized-conf.el</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='cl'><span class='line'><span class="c1">;; Solarized theme configuration file</span>
+</span><span class='line'><span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">&#39;custom-theme-load-path</span> <span class="s">&quot;~/.live-packs/dave-pack/lib/emacs-color-theme-solarized&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="p">(</span><span class="nv">load-theme</span> <span class="ss">&#39;solarized-dark</span> <span class="no">t</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>created ~/.emacs-live.el</p>
+
+<figure class='code'><figcaption><span>~/.emacs-live.el</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='cl'><span class='line'><span class="p">(</span><span class="nv">live-use-packs</span> <span class="o">&#39;</span><span class="p">(</span><span class="nv">live/foundation-pack</span>
+</span><span class='line'>                 <span class="c1">;live/colour-pack ;disabled for solarized to work properly</span>
+</span><span class='line'>                 <span class="nv">live/clojure-pack</span>
+</span><span class='line'>                 <span class="nv">live/lang-pack</span>
+</span><span class='line'>                 <span class="nv">live/power-pack</span><span class="p">))</span>
+</span><span class='line'><span class="p">(</span><span class="nv">live-add-packs</span> <span class="o">&#39;</span><span class="p">(</span><span class="nv">~/.live-packs/dave-pack</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>PROTIP: set your terminal&rsquo;s XTERM to 16 colors!</p>
+
+<p>-and that was that! Now I have to spend some time installing my favorite
+ruby packages, like rinari and rspec-mode. That can wait for another night.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -188,6 +326,10 @@ I want to get a job where I can program while I&rsquo;m studying CS at school. I
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/10/emacs-live/">Emacs Live</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/07/05/disappoint/">disappoint</a>

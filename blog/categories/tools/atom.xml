@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: programming | Dave's not here man]]></title>
-  <link href="http://dave-maldonado.github.io/blog/categories/programming/atom.xml" rel="self"/>
+  <title><![CDATA[Category: tools | Dave's not here man]]></title>
+  <link href="http://dave-maldonado.github.io/blog/categories/tools/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
   <updated>2013-07-10T22:29:43-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
@@ -98,37 +98,6 @@ $ git clone https://github.com/sellout/emacs-color-theme-solarized ~/.live-packs
 
 <p>-and that was that! Now I have to spend some time installing my favorite
 ruby packages, like rinari and rspec-mode. That can wait for another night.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hello, world]]></title>
-    <link href="http://dave-maldonado.github.io/blog/2013/07/02/hello-world/"/>
-    <updated>2013-07-02T11:32:00-04:00</updated>
-    <id>http://dave-maldonado.github.io/blog/2013/07/02/hello-world</id>
-    <content type="html"><![CDATA[<p>I guess a first post is as good as any for my backstory. Grew up middle class
-Army brat, rebelled in high school and skipped going to college afterward.
-I spent a decade flailing about trying to figure out what I was good at. Tried a
-few things- pest control, retail, call center&hellip;</p>
-
-<p><strong>many</strong> call centers</p>
-
-<p><img src="/images/call-center.jpg" title="my personal hell" ></p>
-
-<p>All these jobs were terrible and I decided to go back to school. Three years and two community
-colleges later I have an associate degree and got accepted to the local university.
-Its during this time I discovered Computer Science.</p>
-
-<p>I&rsquo;ve been mucking around with computers since I was a kid but somehow I had missed programming;
-I was only dimly aware of it then and was more interested in building computers and learning how the hardware worked.
-My first exposure to real CS was like a flash of lightning. This was totally different than
-what I imagined a career involving computers could be. This was a <em>real</em> science, like
-Physics or Math, exciting and worthy of a lifetime of study.</p>
-
-<p><img src="/images/computer-science-major.png" title="wat" ></p>
-
-<p>I&rsquo;ve only been programming for a few years but I&rsquo;m trying hard to catch up on lost time.
-I want to get a job where I can program while I&rsquo;m studying CS at school. I applied for an apprenticeship at a web-services company and was challenged to write a tic-tac-toe program where the computer never lost. So far this task has been rewarding and harder than I first imagined. I hope that it pans out but if not I&rsquo;ll keep trying.</p>
 ]]></content>
   </entry>
   
