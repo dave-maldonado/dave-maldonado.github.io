@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tools | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/tools/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-07-10T22:50:09-04:00</updated>
+  <updated>2013-07-11T00:10:30-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -54,7 +54,7 @@ I couldn&rsquo;t leave well enough alone and wanted my pretty <a href="http://et
 <h1>Solarized</h1>
 
 <p>I found a custom &lsquo;pack&rsquo; for solarized <a href="https://github.com/siancu/solarized-pack">here</a> but
-it uses <a href="https://github.com/bbatsov/solarized-emacs">batsov&rsquo;s solarized-emacs package</a> which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with <a href="https://github.com/sellout/emacs-color-theme-solarized">sellout&rsquo;s color-theme-solarized package</a> (There are at least <strong>three</strong> emacs packages for the solarized theme).</p>
+it uses <a href="https://github.com/bbatsov/solarized-emacs">batsov&rsquo;s solarized-emacs package</a> which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with <a href="https://github.com/sellout/emacs-color-theme-solarized">sellout&rsquo;s color-theme-solarized package</a> (There are at least <strong>three</strong> different emacs packages for the solarized theme).</p>
 
 <p>The <a href="http://overtone.github.io/emacs-live/documentation.html">documentation</a> explains how to
 make a user pack and get it loaded into emacs. What I did with my user pack was to clone
