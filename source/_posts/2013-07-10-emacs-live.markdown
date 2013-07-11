@@ -13,7 +13,7 @@ So today I decided to re-install emacs from scratch.
 this started the usual way,
 
 ```
-$ brew install emacs
+$ brew install emacs --cocoa
 ```
 and *voila!* I had a vanilla install of emacs.
 
@@ -44,7 +44,7 @@ Solarized
 =========
 
 I found a custom 'pack' for solarized [here](https://github.com/siancu/solarized-pack) but
-it uses [batsov's solarized-emacs package](https://github.com/bbatsov/solarized-emacs) which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with [sellout's color-theme-solarized package](https://github.com/sellout/emacs-color-theme-solarized) (There are at least **three** different emacs packages for the solarized theme).
+it uses [batsov's solarized-emacs package](https://github.com/bbatsov/solarized-emacs) which I could never get working with emacs running inside iTerm. I read a bit of the documentation and decided to roll my own user pack with [sellout's color-theme-solarized package](https://github.com/sellout/emacs-color-theme-solarized) (There are at least **three** different emacs packages for the solarized theme).
 
 The [documentation](http://overtone.github.io/emacs-live/documentation.html) explains how to
 make a user pack and get it loaded into emacs. What I did with my user pack was to clone
@@ -70,7 +70,7 @@ then a little editing was needed to some files inside the pack:
 (load-theme 'solarized-dark t)
 ```
 
-created ~/.emacs-live.el
+I also needed to create ~/.emacs-live.el
 
 ``` cl ~/.emacs-live.el
 (live-use-packs '(live/foundation-pack
@@ -81,7 +81,9 @@ created ~/.emacs-live.el
 (live-add-packs '(~/.live-packs/dave-pack))
 ```
 
-PROTIP: set your terminal's XTERM to 16 colors!
+If you plan on running emacs inside a terminal emulator
+set the XTERM to 16 colors. Also the undo-tree will not display correctly for
+some reason
 
 -and that was that! Now I have to spend some time installing my favorite
 ruby packages, like rinari and rspec-mode. That can wait for another night.
