@@ -37,8 +37,8 @@ to .emacs.d.
 $ git clone https://github.com/overtone/emacs-live.git  ~/.emacs.d
 ```
 
-After starting it up and playing with some of the features (undo-tree being my favorite)
-I decided I couldn't leave well enough alone and wanted my pretty [solarized](http://ethanschoonover.com/solarized) colors. So I got to hacking.
+I started it up and played with some of the features (undo-tree!!!).
+I couldn't leave well enough alone and wanted my pretty [solarized](http://ethanschoonover.com/solarized) colors, so I got to hacking.
 
 Solarized
 =========
