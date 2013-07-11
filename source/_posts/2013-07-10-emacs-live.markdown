@@ -44,7 +44,7 @@ Solarized
 =========
 
 I found a custom 'pack' for solarized [here](https://github.com/siancu/solarized-pack) but
-it uses [batsov's solarized-emacs package](https://github.com/bbatsov/solarized-emacs) which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with [sellout's color-theme-solarized package](https://github.com/sellout/emacs-color-theme-solarized) (There are at least **three** emacs packages for the solarized theme).
+it uses [batsov's solarized-emacs package](https://github.com/bbatsov/solarized-emacs) which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with [sellout's color-theme-solarized package](https://github.com/sellout/emacs-color-theme-solarized) (There are at least **three** different emacs packages for the solarized theme).
 
 The [documentation](http://overtone.github.io/emacs-live/documentation.html) explains how to
 make a user pack and get it loaded into emacs. What I did with my user pack was to clone
