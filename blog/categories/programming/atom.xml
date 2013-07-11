@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-07-11T08:36:22-04:00</updated>
+  <updated>2013-07-11T15:02:55-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -25,7 +25,7 @@
 <p>this started the usual way,</p>
 
 <p><code>
-$ brew install emacs
+$ brew install emacs --cocoa
 </code>
 and <em>voila!</em> I had a vanilla install of emacs.</p>
 
@@ -54,7 +54,7 @@ I couldn&rsquo;t leave well enough alone and wanted my pretty <a href="http://et
 <h1>Solarized</h1>
 
 <p>I found a custom &lsquo;pack&rsquo; for solarized <a href="https://github.com/siancu/solarized-pack">here</a> but
-it uses <a href="https://github.com/bbatsov/solarized-emacs">batsov&rsquo;s solarized-emacs package</a> which I could never get working with emacs running in iTerm. I read a bit of the documentation and decided to roll my own user pack with <a href="https://github.com/sellout/emacs-color-theme-solarized">sellout&rsquo;s color-theme-solarized package</a> (There are at least <strong>three</strong> different emacs packages for the solarized theme).</p>
+it uses <a href="https://github.com/bbatsov/solarized-emacs">batsov&rsquo;s solarized-emacs package</a> which I could never get working with emacs running inside iTerm. I read a bit of the documentation and decided to roll my own user pack with <a href="https://github.com/sellout/emacs-color-theme-solarized">sellout&rsquo;s color-theme-solarized package</a> (There are at least <strong>three</strong> different emacs packages for the solarized theme).</p>
 
 <p>The <a href="http://overtone.github.io/emacs-live/documentation.html">documentation</a> explains how to
 make a user pack and get it loaded into emacs. What I did with my user pack was to clone
@@ -80,7 +80,7 @@ $ git clone https://github.com/sellout/emacs-color-theme-solarized ~/.live-packs
 (load-theme 'solarized-dark t)
 </code></p>
 
-<p>created ~/.emacs-live.el</p>
+<p>I also needed to create ~/.emacs-live.el</p>
 
 <p>``` cl ~/.emacs-live.el
 (live-use-packs &lsquo;(live/foundation-pack</p>
@@ -94,7 +94,9 @@ $ git clone https://github.com/sellout/emacs-color-theme-solarized ~/.live-packs
 <p>(live-add-packs &lsquo;(~/.live-packs/dave-pack))
 ```</p>
 
-<p>PROTIP: set your terminal&rsquo;s XTERM to 16 colors!</p>
+<p>If you plan on running emacs inside a terminal emulator
+set the XTERM to 16 colors. Also the undo-tree will not display correctly for
+some reason</p>
 
 <p>-and that was that! Now I have to spend some time installing my favorite
 ruby packages, like rinari and rspec-mode. That can wait for another night.</p>
