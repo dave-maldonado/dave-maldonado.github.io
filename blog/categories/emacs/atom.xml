@@ -4,7 +4,7 @@
   <title><![CDATA[Category: emacs | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/emacs/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-07-10T22:29:43-04:00</updated>
+  <updated>2013-07-10T22:50:09-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -48,8 +48,8 @@ to .emacs.d.</p>
 $ git clone https://github.com/overtone/emacs-live.git  ~/.emacs.d
 </code></p>
 
-<p>After starting it up and playing with some of the features (undo-tree being my favorite)
-I decided I couldn&rsquo;t leave well enough alone and wanted my pretty <a href="http://ethanschoonover.com/solarized">solarized</a> colors. So I got to hacking.</p>
+<p>I started it up and played with some of the features (undo-tree!!!).
+I couldn&rsquo;t leave well enough alone and wanted my pretty <a href="http://ethanschoonover.com/solarized">solarized</a> colors, so I got to hacking.</p>
 
 <h1>Solarized</h1>
 
