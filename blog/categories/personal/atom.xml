@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-07-31T16:35:24-04:00</updated>
+  <updated>2013-08-12T16:36:23-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[school and stuff]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/08/12/school-and-stuff/"/>
+    <updated>2013-08-12T15:01:00-04:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/08/12/school-and-stuff</id>
+    <content type="html"><![CDATA[<h1>school</h1>
+
+<p><img src="/images/usf_entrance.jpg" title="USF" ></p>
+
+<p>In two weeks I start studying at USF. I&rsquo;m pretty excited to make the transition from
+community college to a university. I have two calculus classes and two physics classes
+to do before I&rsquo;m accepted into the Computer Science program but I&rsquo;m (semi)confident I&rsquo;ll get
+it done and get in.</p>
+
+<h1>stuff</h1>
+
+<p>Besides the new school year there have been other developments, some I can&rsquo;t talk about
+quite yet and some I can. I got into a wreck a few weeks back when I zoned out and jumped
+the median into oncoming traffic. Luckily I came to as the car started spinning around and
+miraculously ended up on the other side of the road unharmed. The car was out of commission
+for a few weeks while I got to experience the local bus system&hellip;</p>
+
+<p><img src="/images/pinellas_bus.jpg" title="be afraid&hellip;" ></p>
+
+<p>There were a few belligerent (and amusing) drunks and some long walks after missing
+connections but it wasn&rsquo;t too bad overall. Honestly for a while after that scare I
+didn&rsquo;t want to drive.</p>
+
+<p>I&rsquo;m also working on my programming, the two things I&rsquo;m currently occupied with are,</p>
+
+<ul>
+<li><p><a href="http://exercism.io">exercism.io</a>: A &lsquo;coding exercise&rsquo; website with an awesome code &ndash;> peer review &ndash;> refactor model</p></li>
+<li><p><a href="https://www.coursera.org/course/algs4partI">Coursera&rsquo;s Algorithms course</a>: I tried
+this course about a year ago but had a hard time, now I think I&rsquo;m ready for it.</p></li>
+</ul>
+
+
+<p>Well, I guess that&rsquo;s all I got for now, <em>auf wiedersehen!</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[disappoint]]></title>
