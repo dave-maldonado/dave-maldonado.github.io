@@ -3,7 +3,7 @@
   <title><![CDATA[Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-08-19T12:51:01-04:00</updated>
+  <updated>2013-09-05T13:45:26-04:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -11,6 +11,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[first two weeks]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/09/05/first-two-weeks/"/>
+    <updated>2013-09-05T13:28:00-04:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/09/05/first-two-weeks</id>
+    <content type="html"><![CDATA[<p>so I&rsquo;ve been back to school for two weeks now, some thoughts-</p>
+
+<ul>
+<li><p>The university is huge compared to HCC!</p></li>
+<li><p>I feel really old sitting in a first-year physics lecture.</p></li>
+<li><p>I&rsquo;ve been programming a lot less since school started :(</p></li>
+</ul>
+
+
+<p>The last point worries me but I have to get through this year of engineering pre-reqs
+before I&rsquo;m accepted into the Computer Science department. I hope it doesn&rsquo;t set me back.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[aye bay bay]]></title>
