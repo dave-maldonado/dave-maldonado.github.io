@@ -4,7 +4,7 @@
   <title><![CDATA[Category: newb | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/newb/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-10-11T13:53:00-04:00</updated>
+  <updated>2013-11-08T15:07:59-05:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[tampa.rb]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/10/17/first-ruby-meetup/"/>
+    <updated>2013-10-17T19:16:00-04:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/10/17/first-ruby-meetup</id>
+    <content type="html"><![CDATA[<p>I attended my first <a href="http://www.meetup.com/tampa-rb">Ruby meetup</a> a few weeks ago. I met some local developers and
+may have a lead on an internship with a local radio station working on their Rails website. I&rsquo;m pretty excited :X</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hello, world]]></title>
