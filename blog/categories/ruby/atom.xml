@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | Dave's not here man]]></title>
+  <link href="http://dave-maldonado.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://dave-maldonado.github.io/"/>
+  <updated>2013-11-08T15:07:59-05:00</updated>
+  <id>http://dave-maldonado.github.io/</id>
+  <author>
+    <name><![CDATA[David Maldonado]]></name>
+    <email><![CDATA[david.m.maldonado@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[tampa.rb]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/10/17/first-ruby-meetup/"/>
+    <updated>2013-10-17T19:16:00-04:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/10/17/first-ruby-meetup</id>
+    <content type="html"><![CDATA[<p>I attended my first <a href="http://www.meetup.com/tampa-rb">Ruby meetup</a> a few weeks ago. I met some local developers and
+may have a lead on an internship with a local radio station working on their Rails website. I&rsquo;m pretty excited :X</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ruby koans]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/07/19/ruby-koans/"/>
+    <updated>2013-07-19T11:19:00-04:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/07/19/ruby-koans</id>
+    <content type="html"><![CDATA[<p>I finished the ruby koans, w00t!</p>
+
+<p><img src="/images/koans_complete.png" width="500" height="500" title="yisss" ></p>
+]]></content>
+  </entry>
+  
+</feed>
