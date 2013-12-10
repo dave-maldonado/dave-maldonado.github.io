@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-11-08T15:07:59-05:00</updated>
+  <updated>2013-12-10T10:43:17-05:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[arrg]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/12/10/arrg/"/>
+    <updated>2013-12-10T10:13:00-05:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/12/10/arrg</id>
+    <content type="html"><![CDATA[<p>Well it&rsquo;s the end of the semester and I have my physics final tomorrow. This has been my worse semester yet. I ended up dropping my calculus class and I&rsquo;m barely passing physics. My dad&rsquo;s in the hospital with blood clots and fluid in his lungs. The &lsquo;interning opportunity&rsquo; at the radio station fell through and no luck turning anything else up.</p>
+
+<p>arrg.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[first two weeks]]></title>
@@ -92,37 +103,6 @@ this course about a year ago but had a hard time, now I think I&rsquo;m ready fo
     <content type="html"><![CDATA[<p><img src="/images/FredisDisappoint.jpg" title="disappoint" ></p>
 
 <p>I didn&rsquo;t get that apprenticeship.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hello, world]]></title>
-    <link href="http://dave-maldonado.github.io/blog/2013/07/02/hello-world/"/>
-    <updated>2013-07-02T11:32:00-04:00</updated>
-    <id>http://dave-maldonado.github.io/blog/2013/07/02/hello-world</id>
-    <content type="html"><![CDATA[<p>I guess a first post is as good as any for my backstory. Grew up middle class
-Army brat, rebelled in high school and skipped going to college afterward.
-I spent a decade flailing about trying to figure out what I was good at. Tried a
-few things- pest control, retail, call center&hellip;</p>
-
-<p><strong>many</strong> call centers</p>
-
-<p><img src="/images/call-center.jpg" title="my personal hell" ></p>
-
-<p>All these jobs were terrible and I decided to go back to school. Three years and two community
-colleges later I have an associate degree and got accepted to the local university.
-Its during this time I discovered Computer Science.</p>
-
-<p>I&rsquo;ve been mucking around with computers since I was a kid but somehow I had missed programming;
-I was only dimly aware of it then and was more interested in building computers and learning how the hardware worked.
-My first exposure to real CS was like a flash of lightning. This was totally different than
-what I imagined a career involving computers could be. This was a <em>real</em> science, like
-Physics or Math, exciting and worthy of a lifetime of study.</p>
-
-<p><img src="/images/computer-science-major.png" title="wat" ></p>
-
-<p>I&rsquo;ve only been programming for a few years but I&rsquo;m trying hard to catch up on lost time.
-I want to get a job where I can program while I&rsquo;m studying CS at school. I applied for an apprenticeship at a web-services company and was challenged to write a tic-tac-toe program where the computer never lost. So far this task has been rewarding and harder than I first imagined. I hope that it pans out but if not I&rsquo;ll keep trying.</p>
 ]]></content>
   </entry>
   
