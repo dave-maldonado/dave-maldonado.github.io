@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | Dave's not here man]]></title>
   <link href="http://dave-maldonado.github.io/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://dave-maldonado.github.io/"/>
-  <updated>2013-11-08T15:07:59-05:00</updated>
+  <updated>2013-12-17T21:46:40-05:00</updated>
   <id>http://dave-maldonado.github.io/</id>
   <author>
     <name><![CDATA[David Maldonado]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[code retreat]]></title>
+    <link href="http://dave-maldonado.github.io/blog/2013/12/17/code-retreat/"/>
+    <updated>2013-12-17T17:56:00-05:00</updated>
+    <id>http://dave-maldonado.github.io/blog/2013/12/17/code-retreat</id>
+    <content type="html"><![CDATA[<p>This last Saturday was the <a href="http://coderetreat.org">code retreat</a> at 8th Light&rsquo;s Tampa office.</p>
+
+<p>I was really nervous before going, but reading the Apprenticeship Patterns book I came across <strong>The Deep End</strong> pattern.
+The gist of it being that you&rsquo;re only going to stretch in your ability by going outside of your comfort zone. This would
+be the perfect opportunity to practice this pattern.</p>
+
+<p>I paired with 6 different developers over the course of the day and to my surprise I wasn&rsquo;t even the worst dev there! I would say one was even newer than me, three were around my level and two were much better. I learned something new from every person and my first experience pair programming was an overwhemingly positive one.</p>
+
+<p>The big take-aways from the day were,</p>
+
+<ul>
+<li>I need to become more familiar with other code editors like Vim and Sublime, pairing was a pain in the ass because I&rsquo;m so dependent on my Emacs!</li>
+</ul>
+
+
+<p>and</p>
+
+<ul>
+<li>moar Ruby, I need to learn this language inside and out</li>
+</ul>
+
+
+<p>In other news my dad is out of the hospital and doing better, I passed Physics, and I ended up getting an email about the radio station internship. All&rsquo;s well that ends well I guess.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[tampa.rb]]></title>
