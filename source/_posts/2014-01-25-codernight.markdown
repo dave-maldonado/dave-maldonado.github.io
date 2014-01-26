@@ -52,7 +52,7 @@ I don't know how much faster that approach is but I imagine it's more efficient.
 I think I'll rewrite my program sometime with that idea.
 
 I wish my entry would of gotten more scrutiny but I did come away with some useful
-feedback. First in my test file I was leaving some code behind from early TDD rounds,
+feedback. In my test file I was leaving some code behind from early TDD rounds,
 such as
 
 ``` ruby robots_vs_lasers_test.rb
