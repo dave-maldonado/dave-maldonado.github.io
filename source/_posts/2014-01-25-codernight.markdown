@@ -11,6 +11,8 @@ meetup where we're given a programming puzzle and meet a few weeks later
 to critique and discuss our solutions anonymously. This months puzzle was
 [Robots vs. Lasers](http://www.puzzlenode.com/puzzles/4-robots-vs-lasers).
 
+<!--more-->
+
 In this puzzle the input consisted of diagrams representing conveyor belts.
 
 ``` text sample-input.txt

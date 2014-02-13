@@ -21,6 +21,8 @@ I was using the [starter-kit](https://github.com/technomancy/emacs-starter-kit) 
 but I had some problems with certain packages playing nice so I decided to look for
 something new. Enter **Emacs Live**.
 
+<!--more-->
+
 Emacs Live
 ==========
 
