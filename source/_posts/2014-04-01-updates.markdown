@@ -1,0 +1,25 @@
+---
+layout: post
+title: "updates"
+date: 2014-04-01 18:12:11 -0400
+comments: true
+categories: personal
+---
+
+I've had a couple of big events lately...
+
+BABY!!!
+=======
+
+{% img /images/charlotte_sleeping.jpg 500 372 Charlotte %}
+
+Charlotte was born 3/25/2014 at a healthy 7 lbs 11 ounces. She's all I can think
+about lately.
+
+UNEMPLOYED!!!
+=============
+
+While I was in the hospital I found out I was being let go. Needless to say it's
+a bad time and now I'm scrambling to find gainful employment. I've had a couple
+of interviews that seemed to go well but ended up not getting a call back.
+I'll keep at it though, it's now more important than ever.
